@@ -1,12 +1,22 @@
 name: openclaw-skills
-version: 0.1.0
+version: 0.1.1
 description: Коллекция навыков для OpenClaw
 author: Михаил Красильников
+license: MIT
+targets:
+- codex
+type: skill
 dependencies:
-  apm:
-  - mekras/ai-dev-team#^0.3.0
+  apm: []
   mcp: []
 includes: auto
 scripts:
-  compile: "apm compile --target codex"
-  install:frozen: "apm install --frozen"
+  tests: sh -c 'set -e; target="${APM_EVAL_PATH:-.apm/skills}"; python3 tools/validate-trigger-evals.py
+    "$target" --require-all; python3 tools/validate-skill-result-evals.py "$target";
+    python3 tools/run-skill-evals.py "$target"'
+  pack:dry-run: apm pack --dry-run --format apm
+  compile: apm compile --target codex
+  install:frozen: apm install --frozen
+devDependencies:
+  apm:
+  - mekras/ai-dev-team#^0.3.1
