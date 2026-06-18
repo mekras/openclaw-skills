@@ -6,7 +6,7 @@ items:
     access: "Публичная страница документации OpenClaw, доступ без авторизации."
     status: confirmed
     workflow_stage: statements_extracted
-    path: data/openclaw-skills-docs/pages/skills
+    path: pages/skills
   - id: OCDOC-SKILL-WORKSHOP
     source_id: OCDOC
     title: "Skill Workshop"
@@ -14,7 +14,7 @@ items:
     access: "Публичная страница документации OpenClaw, доступ без авторизации."
     status: confirmed
     workflow_stage: statements_extracted
-    path: data/openclaw-skills-docs/pages/skill-workshop
+    path: pages/skill-workshop
   - id: OCDOC-CREATING-SKILLS
     source_id: OCDOC
     title: "Creating skills"
@@ -22,7 +22,7 @@ items:
     access: "Публичная страница документации OpenClaw, доступ без авторизации."
     status: confirmed
     workflow_stage: statements_extracted
-    path: data/openclaw-skills-docs/pages/creating-skills
+    path: pages/creating-skills
   - id: OCDOC-SKILLS-CONFIG
     source_id: OCDOC
     title: "Skills config"
@@ -30,12 +30,4 @@ items:
     access: "Публичная страница документации OpenClaw, доступ без авторизации."
     status: confirmed
     workflow_stage: statements_extracted
-    path: data/openclaw-skills-docs/pages/skills-config
-  - id: AGFOC-REPO
-    source_id: AGFOC
-    title: "AgentForge for OpenClaw"
-    url: "https://github.com/AlekseiUL/agentforge-openclaw"
-    access: "Публичный GitHub-репозиторий, доступ без авторизации для чтения веб-страницы."
-    status: confirmed
-    workflow_stage: statements_extracted
-    path: data/agentforge-openclaw/items/repository-root
+    path: pages/skills-config

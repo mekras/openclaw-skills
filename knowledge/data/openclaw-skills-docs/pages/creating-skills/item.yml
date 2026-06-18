@@ -1,0 +1,20 @@
+id: OCDOC-CREATING-SKILLS
+source_id: OCDOC
+title: "Creating skills"
+url: "https://docs.openclaw.ai/tools/creating-skills"
+date_published:
+access: "Публичная страница документации OpenClaw, доступ без авторизации."
+
+status: confirmed
+workflow_stage: statements_extracted
+processing_scope: full
+
+files:
+  tracked:
+    - normalized.md
+    - statements.yml
+  local: []
+
+known_limitations: []
+processing_notes:
+  - "Нормализованный markdown получен из https://docs.openclaw.ai/tools/creating-skills.md."

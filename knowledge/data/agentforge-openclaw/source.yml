@@ -1,0 +1,38 @@
+id: AGFOC
+slug: agentforge-openclaw
+title: "AlekseiUL/agentforge-openclaw"
+status: draft
+priority: normal
+platform: other
+kind: external_source
+adapter: manual
+
+url: "https://github.com/AlekseiUL/agentforge-openclaw"
+locator: "https://github.com/AlekseiUL/agentforge-openclaw"
+public_reference: "https://github.com/AlekseiUL/agentforge-openclaw"
+license_or_terms: "MIT license"
+
+access:
+  default: "Публичный GitHub-репозиторий, доступ без авторизации для чтения веб-страницы."
+reliability: personal
+stability: mutable
+refresh_policy: manual
+refresh_interval_days:
+
+retrieved_at: 2026-06-18
+last_checked_at: 2026-06-18
+checked_by: "Codex"
+content_hash:
+
+scope:
+  includes:
+    - "Корневой репозиторий AgentForge for OpenClaw."
+    - "Метаданные репозитория и верхнеуровневые материалы, начиная с README."
+  excludes:
+    - "Неявно не включаются все файлы репозитория до отдельной фиксации единиц."
+
+known_limitations:
+  - "В корпусе сохранён README репозитория; SKILL.md и другие файлы не включены в текущую единицу."
+processing_notes:
+  - "Источник добавлен как внешний публичный репозиторий, предложенный пользователем."
+  - "README получен и нормализован 2026-06-18."

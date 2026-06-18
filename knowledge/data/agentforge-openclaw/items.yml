@@ -1,0 +1,9 @@
+items:
+  - id: AGFOC-REPO
+    source_id: AGFOC
+    title: "AgentForge for OpenClaw"
+    url: "https://github.com/AlekseiUL/agentforge-openclaw"
+    access: "Публичный GitHub-репозиторий, доступ без авторизации для чтения веб-страницы."
+    status: confirmed
+    workflow_stage: statements_extracted
+    path: items/repository-root

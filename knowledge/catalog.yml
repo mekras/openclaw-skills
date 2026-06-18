@@ -1,1 +1,7 @@
-sources: []
+sources:
+  - id: OCDOC
+    title: "OpenClaw docs: skills"
+    path: data/openclaw-skills-docs
+  - id: AGFOC
+    title: "AlekseiUL/agentforge-openclaw"
+    path: data/agentforge-openclaw

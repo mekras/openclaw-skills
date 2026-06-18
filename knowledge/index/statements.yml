@@ -1,1 +1,115 @@
-statements: []
+statements:
+  - id: OCDOC-001
+    source_id: OCDOC
+    item_id: OCDOC-SKILLS
+    status: confirmed
+    text: "OpenClaw skill is a markdown instruction file in a directory that contains SKILL.md with YAML frontmatter and a markdown body."
+    artifact: data/openclaw-skills-docs/pages/skills/normalized.md
+  - id: OCDOC-002
+    source_id: OCDOC
+    item_id: OCDOC-SKILLS
+    status: confirmed
+    text: "OpenClaw skill loading precedence starts with workspace skills, then project agent skills, personal agent skills, managed local skills, bundled skills, and extra directories or plugin skills."
+    artifact: data/openclaw-skills-docs/pages/skills/normalized.md
+  - id: OCDOC-003
+    source_id: OCDOC
+    item_id: OCDOC-SKILLS
+    status: confirmed
+    text: "Codex CLI's native $CODEX_HOME/skills directory is not an OpenClaw skill root."
+    artifact: data/openclaw-skills-docs/pages/skills/normalized.md
+  - id: OCDOC-004
+    source_id: OCDOC
+    item_id: OCDOC-SKILLS
+    status: confirmed
+    text: "OpenClaw agent allowlists restrict which skills an agent sees independently of where those skills are loaded from."
+    artifact: data/openclaw-skills-docs/pages/skills/normalized.md
+  - id: OCDOC-005
+    source_id: OCDOC
+    item_id: OCDOC-SKILLS
+    status: confirmed
+    text: "OpenClaw documentation instructs operators to treat third-party skills as untrusted code and read them before enabling."
+    artifact: data/openclaw-skills-docs/pages/skills/normalized.md
+  - id: OCDOC-006
+    source_id: OCDOC
+    item_id: OCDOC-SKILL-WORKSHOP
+    status: confirmed
+    text: "Skill Workshop is OpenClaw's governed path for creating and updating workspace skills."
+    artifact: data/openclaw-skills-docs/pages/skill-workshop/normalized.md
+  - id: OCDOC-007
+    source_id: OCDOC
+    item_id: OCDOC-SKILL-WORKSHOP
+    status: confirmed
+    text: "Skill Workshop stores generated skill content as a proposal first and applies it to a live skill only when approved."
+    artifact: data/openclaw-skills-docs/pages/skill-workshop/normalized.md
+  - id: OCDOC-008
+    source_id: OCDOC
+    item_id: OCDOC-SKILL-WORKSHOP
+    status: confirmed
+    text: "Skill Workshop writes workspace skills only and does not mutate bundled, plugin, ClawHub, extra-root, managed, personal-agent, or system skills."
+    artifact: data/openclaw-skills-docs/pages/skill-workshop/normalized.md
+  - id: OCDOC-009
+    source_id: OCDOC
+    item_id: OCDOC-CREATING-SKILLS
+    status: confirmed
+    text: "OpenClaw workspace skills live in the workspace skills/ folder."
+    artifact: data/openclaw-skills-docs/pages/creating-skills/normalized.md
+  - id: OCDOC-010
+    source_id: OCDOC
+    item_id: OCDOC-CREATING-SKILLS
+    status: confirmed
+    text: "OpenClaw skill frontmatter requires name and description fields."
+    artifact: data/openclaw-skills-docs/pages/creating-skills/normalized.md
+  - id: OCDOC-011
+    source_id: OCDOC
+    item_id: OCDOC-CREATING-SKILLS
+    status: confirmed
+    text: "A skill can reference files inside its directory with {baseDir} instead of hardcoding paths."
+    artifact: data/openclaw-skills-docs/pages/creating-skills/normalized.md
+  - id: OCDOC-012
+    source_id: OCDOC
+    item_id: OCDOC-CREATING-SKILLS
+    status: confirmed
+    text: "For agent-drafted skills or operator review before a skill goes live, OpenClaw documentation directs users to Skill Workshop proposals instead of writing SKILL.md directly."
+    artifact: data/openclaw-skills-docs/pages/creating-skills/normalized.md
+  - id: OCDOC-013
+    source_id: OCDOC
+    item_id: OCDOC-SKILLS-CONFIG
+    status: confirmed
+    text: "Most OpenClaw skills configuration lives under skills in ~/.openclaw/openclaw.json."
+    artifact: data/openclaw-skills-docs/pages/skills-config/normalized.md
+  - id: OCDOC-014
+    source_id: OCDOC
+    item_id: OCDOC-SKILLS-CONFIG
+    status: confirmed
+    text: "Agent-specific skill visibility is configured through agents.defaults.skills and agents.list[].skills."
+    artifact: data/openclaw-skills-docs/pages/skills-config/normalized.md
+  - id: OCDOC-015
+    source_id: OCDOC
+    item_id: OCDOC-SKILLS-CONFIG
+    status: confirmed
+    text: "OpenClaw security.installPolicy lets operators run a trusted local policy command before skill and plugin installs continue."
+    artifact: data/openclaw-skills-docs/pages/skills-config/normalized.md
+  - id: AGFOC-001
+    source_id: AGFOC
+    item_id: AGFOC-REPO
+    status: confirmed
+    text: "AgentForge for OpenClaw describes itself as a pipeline for creating skills and agents for OpenClaw from idea to production-ready agent."
+    artifact: data/agentforge-openclaw/items/repository-root/normalized.md
+  - id: AGFOC-002
+    source_id: AGFOC
+    item_id: AGFOC-REPO
+    status: confirmed
+    text: "AgentForge for OpenClaw defines three modes: Skill, Agent, and Improve."
+    artifact: data/agentforge-openclaw/items/repository-root/normalized.md
+  - id: AGFOC-003
+    source_id: AGFOC
+    item_id: AGFOC-REPO
+    status: confirmed
+    text: "AgentForge's advertised skill output structure contains SKILL.md, data/, and references/."
+    artifact: data/agentforge-openclaw/items/repository-root/normalized.md
+  - id: AGFOC-004
+    source_id: AGFOC
+    item_id: AGFOC-REPO
+    status: confirmed
+    text: "AgentForge README states that the project is under the MIT License."
+    artifact: data/agentforge-openclaw/items/repository-root/normalized.md

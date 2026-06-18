@@ -1,0 +1,64 @@
+source_id: OCDOC
+item_id: OCDOC-CREATING-SKILLS
+statements:
+  - id: OCDOC-009
+    source_id: OCDOC
+    item_id: OCDOC-CREATING-SKILLS
+    status: confirmed
+    text: "OpenClaw workspace skills live in the workspace skills/ folder."
+    excerpt: "Skills live in your workspace `skills/` folder."
+    artifact: normalized.md
+    checked_at: 2026-06-18
+    checked_by: "Codex"
+    scope:
+      applies_to:
+        - "Workspace skill placement"
+      does_not_apply_to: []
+      limitations: []
+    open_questions: []
+  - id: OCDOC-010
+    source_id: OCDOC
+    item_id: OCDOC-CREATING-SKILLS
+    status: confirmed
+    text: "OpenClaw skill frontmatter requires name and description fields."
+    excerpt: "Required fields"
+    artifact: normalized.md
+    checked_at: 2026-06-18
+    checked_by: "Codex"
+    scope:
+      applies_to:
+        - "SKILL.md frontmatter"
+      does_not_apply_to: []
+      limitations:
+        - "The normalized artifact contains the field descriptions table."
+    open_questions: []
+  - id: OCDOC-011
+    source_id: OCDOC
+    item_id: OCDOC-CREATING-SKILLS
+    status: confirmed
+    text: "A skill can reference files inside its directory with {baseDir} instead of hardcoding paths."
+    excerpt: "Use `{baseDir}` in the skill body to reference files inside the skill directory without hardcoding paths."
+    artifact: normalized.md
+    checked_at: 2026-06-18
+    checked_by: "Codex"
+    scope:
+      applies_to:
+        - "Skill support files"
+      does_not_apply_to: []
+      limitations: []
+    open_questions: []
+  - id: OCDOC-012
+    source_id: OCDOC
+    item_id: OCDOC-CREATING-SKILLS
+    status: confirmed
+    text: "For agent-drafted skills or operator review before a skill goes live, OpenClaw documentation directs users to Skill Workshop proposals instead of writing SKILL.md directly."
+    excerpt: "use [Skill Workshop](/tools/skill-workshop) proposals instead of writing `SKILL.md` directly."
+    artifact: normalized.md
+    checked_at: 2026-06-18
+    checked_by: "Codex"
+    scope:
+      applies_to:
+        - "Skill creation workflow"
+      does_not_apply_to: []
+      limitations: []
+    open_questions: []

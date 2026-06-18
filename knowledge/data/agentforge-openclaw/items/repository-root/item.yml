@@ -1,0 +1,21 @@
+id: AGFOC-REPO
+source_id: AGFOC
+title: "AgentForge for OpenClaw"
+url: "https://github.com/AlekseiUL/agentforge-openclaw"
+date_published:
+access: "Публичный GitHub-репозиторий, доступ без авторизации для чтения веб-страницы."
+
+status: confirmed
+workflow_stage: statements_extracted
+processing_scope: full
+
+files:
+  tracked:
+    - normalized.md
+    - statements.yml
+  local: []
+
+known_limitations:
+  - "Нормализован только README репозитория; остальные файлы не включены в эту единицу."
+processing_notes:
+  - "README получен из raw.githubusercontent.com для ветки HEAD."

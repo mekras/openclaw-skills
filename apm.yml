@@ -1,6 +1,6 @@
 name: openclaw-skills
 version: 1.0.0
-description: Коллекция навыков для OpneClaw
+description: Коллекция навыков для OpenClaw
 author: Михаил Красильников
 dependencies:
   apm:

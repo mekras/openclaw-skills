@@ -1,0 +1,51 @@
+source_id: OCDOC
+item_id: OCDOC-SKILL-WORKSHOP
+statements:
+  - id: OCDOC-006
+    source_id: OCDOC
+    item_id: OCDOC-SKILL-WORKSHOP
+    status: confirmed
+    text: "Skill Workshop is OpenClaw's governed path for creating and updating workspace skills."
+    excerpt: "Skill Workshop is OpenClaw's governed path for creating and updating workspace skills."
+    artifact: normalized.md
+    checked_at: 2026-06-18
+    checked_by: "Codex"
+    scope:
+      applies_to:
+        - "Workspace skill creation and updates"
+      does_not_apply_to: []
+      limitations: []
+    open_questions: []
+  - id: OCDOC-007
+    source_id: OCDOC
+    item_id: OCDOC-SKILL-WORKSHOP
+    status: confirmed
+    text: "Skill Workshop stores generated skill content as a proposal first and applies it to a live skill only when approved."
+    excerpt: "They create a **proposal** first."
+    artifact: normalized.md
+    checked_at: 2026-06-18
+    checked_by: "Codex"
+    scope:
+      applies_to:
+        - "Skill Workshop lifecycle"
+      does_not_apply_to: []
+      limitations: []
+    open_questions: []
+  - id: OCDOC-008
+    source_id: OCDOC
+    item_id: OCDOC-SKILL-WORKSHOP
+    status: confirmed
+    text: "Skill Workshop writes workspace skills only and does not mutate bundled, plugin, ClawHub, extra-root, managed, personal-agent, or system skills."
+    excerpt: "Skill Workshop writes workspace skills only."
+    artifact: normalized.md
+    checked_at: 2026-06-18
+    checked_by: "Codex"
+    scope:
+      applies_to:
+        - "Skill Workshop write scope"
+      does_not_apply_to:
+        - "Bundled skills"
+        - "Plugin skills"
+        - "Managed or personal-agent skills"
+      limitations: []
+    open_questions: []

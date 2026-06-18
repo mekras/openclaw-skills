@@ -1,0 +1,38 @@
+id: OCDOC
+slug: openclaw-skills-docs
+title: "OpenClaw docs: skills"
+status: approved
+priority: high
+platform: website
+kind: external_source
+adapter: manual
+
+url: "https://docs.openclaw.ai/tools/"
+locator: "https://docs.openclaw.ai/tools/"
+public_reference: "https://docs.openclaw.ai/tools/"
+license_or_terms: unknown
+
+access:
+  default: "Публичные страницы документации OpenClaw, доступ без авторизации."
+reliability: official
+stability: mutable
+refresh_policy: manual
+refresh_interval_days:
+
+retrieved_at: 2026-06-18
+last_checked_at: 2026-06-18
+checked_by: "Codex"
+content_hash:
+
+scope:
+  includes:
+    - "Раздел Skills документации OpenClaw."
+    - "Конкретные страницы по skills, workshop, созданию навыков и конфигурации."
+  excludes:
+    - "Другие разделы документации вне указанного набора URL."
+
+known_limitations:
+  - "Снимки сохранены как markdown-варианты страниц; исходный HTML не сохранялся."
+processing_notes:
+  - "Источник добавлен по явному списку URL пользователя."
+  - "Тексты страниц получены и нормализованы 2026-06-18."

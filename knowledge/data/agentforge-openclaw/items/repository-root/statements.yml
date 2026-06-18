@@ -1,0 +1,65 @@
+source_id: AGFOC
+item_id: AGFOC-REPO
+statements:
+  - id: AGFOC-001
+    source_id: AGFOC
+    item_id: AGFOC-REPO
+    status: confirmed
+    text: "AgentForge for OpenClaw describes itself as a pipeline for creating skills and agents for OpenClaw from idea to production-ready agent."
+    excerpt: "Create skills and agents for OpenClaw. Full pipeline from idea to production-ready agent."
+    artifact: normalized.md
+    checked_at: 2026-06-18
+    checked_by: "Codex"
+    scope:
+      applies_to:
+        - "AgentForge repository purpose"
+      does_not_apply_to: []
+      limitations: []
+    open_questions: []
+  - id: AGFOC-002
+    source_id: AGFOC
+    item_id: AGFOC-REPO
+    status: confirmed
+    text: "AgentForge for OpenClaw defines three modes: Skill, Agent, and Improve."
+    excerpt: "Three Modes"
+    artifact: normalized.md
+    checked_at: 2026-06-18
+    checked_by: "Codex"
+    scope:
+      applies_to:
+        - "AgentForge operating modes"
+      does_not_apply_to: []
+      limitations:
+        - "The normalized artifact contains the full mode table."
+    open_questions: []
+  - id: AGFOC-003
+    source_id: AGFOC
+    item_id: AGFOC-REPO
+    status: confirmed
+    text: "AgentForge's advertised skill output structure contains SKILL.md, data/, and references/."
+    excerpt: "skills/my-skill/"
+    artifact: normalized.md
+    checked_at: 2026-06-18
+    checked_by: "Codex"
+    scope:
+      applies_to:
+        - "AgentForge skill template"
+      does_not_apply_to: []
+      limitations:
+        - "The normalized artifact contains the full tree snippet."
+    open_questions: []
+  - id: AGFOC-004
+    source_id: AGFOC
+    item_id: AGFOC-REPO
+    status: confirmed
+    text: "AgentForge README states that the project is under the MIT License."
+    excerpt: "MIT License. Copyright (c) 2026 Aleksei Ulianov / Sprut_AI."
+    artifact: normalized.md
+    checked_at: 2026-06-18
+    checked_by: "Codex"
+    scope:
+      applies_to:
+        - "Repository licensing"
+      does_not_apply_to: []
+      limitations: []
+    open_questions: []

@@ -1,0 +1,48 @@
+source_id: OCDOC
+item_id: OCDOC-SKILLS-CONFIG
+statements:
+  - id: OCDOC-013
+    source_id: OCDOC
+    item_id: OCDOC-SKILLS-CONFIG
+    status: confirmed
+    text: "Most OpenClaw skills configuration lives under skills in ~/.openclaw/openclaw.json."
+    excerpt: "Most skills configuration lives under `skills` in `~/.openclaw/openclaw.json`."
+    artifact: normalized.md
+    checked_at: 2026-06-18
+    checked_by: "Codex"
+    scope:
+      applies_to:
+        - "OpenClaw skills configuration"
+      does_not_apply_to: []
+      limitations: []
+    open_questions: []
+  - id: OCDOC-014
+    source_id: OCDOC
+    item_id: OCDOC-SKILLS-CONFIG
+    status: confirmed
+    text: "Agent-specific skill visibility is configured through agents.defaults.skills and agents.list[].skills."
+    excerpt: "Agent-specific visibility lives under `agents.defaults.skills` and `agents.list[].skills`."
+    artifact: normalized.md
+    checked_at: 2026-06-18
+    checked_by: "Codex"
+    scope:
+      applies_to:
+        - "Agent allowlists"
+      does_not_apply_to: []
+      limitations: []
+    open_questions: []
+  - id: OCDOC-015
+    source_id: OCDOC
+    item_id: OCDOC-SKILLS-CONFIG
+    status: confirmed
+    text: "OpenClaw security.installPolicy lets operators run a trusted local policy command before skill and plugin installs continue."
+    excerpt: "Use `security.installPolicy` when operators need a trusted local command to approve or block skill and plugin installs."
+    artifact: normalized.md
+    checked_at: 2026-06-18
+    checked_by: "Codex"
+    scope:
+      applies_to:
+        - "Install policy"
+      does_not_apply_to: []
+      limitations: []
+    open_questions: []

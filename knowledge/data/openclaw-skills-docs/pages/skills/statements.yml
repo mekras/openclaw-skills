@@ -1,0 +1,79 @@
+source_id: OCDOC
+item_id: OCDOC-SKILLS
+statements:
+  - id: OCDOC-001
+    source_id: OCDOC
+    item_id: OCDOC-SKILLS
+    status: confirmed
+    text: "OpenClaw skill is a markdown instruction file in a directory that contains SKILL.md with YAML frontmatter and a markdown body."
+    excerpt: "Each skill lives in a directory containing a `SKILL.md` file with YAML frontmatter and a markdown body."
+    artifact: normalized.md
+    checked_at: 2026-06-18
+    checked_by: "Codex"
+    scope:
+      applies_to:
+        - "OpenClaw skill layout"
+      does_not_apply_to: []
+      limitations: []
+    open_questions: []
+  - id: OCDOC-002
+    source_id: OCDOC
+    item_id: OCDOC-SKILLS
+    status: confirmed
+    text: "OpenClaw skill loading precedence starts with workspace skills, then project agent skills, personal agent skills, managed local skills, bundled skills, and extra directories or plugin skills."
+    excerpt: "OpenClaw loads from these sources, **highest precedence first**."
+    artifact: normalized.md
+    checked_at: 2026-06-18
+    checked_by: "Codex"
+    scope:
+      applies_to:
+        - "Skill precedence"
+      does_not_apply_to: []
+      limitations:
+        - "Full precedence table is in the normalized artifact."
+    open_questions: []
+  - id: OCDOC-003
+    source_id: OCDOC
+    item_id: OCDOC-SKILLS
+    status: confirmed
+    text: "Codex CLI's native $CODEX_HOME/skills directory is not an OpenClaw skill root."
+    excerpt: "Codex CLI's native `$CODEX_HOME/skills` directory is **not** an OpenClaw skill root."
+    artifact: normalized.md
+    checked_at: 2026-06-18
+    checked_by: "Codex"
+    scope:
+      applies_to:
+        - "Migration from Codex skills to OpenClaw"
+      does_not_apply_to: []
+      limitations: []
+    open_questions: []
+  - id: OCDOC-004
+    source_id: OCDOC
+    item_id: OCDOC-SKILLS
+    status: confirmed
+    text: "OpenClaw agent allowlists restrict which skills an agent sees independently of where those skills are loaded from."
+    excerpt: "Use allowlists to restrict which skills an agent sees, regardless of where they are loaded from."
+    artifact: normalized.md
+    checked_at: 2026-06-18
+    checked_by: "Codex"
+    scope:
+      applies_to:
+        - "Per-agent skill visibility"
+      does_not_apply_to: []
+      limitations: []
+    open_questions: []
+  - id: OCDOC-005
+    source_id: OCDOC
+    item_id: OCDOC-SKILLS
+    status: confirmed
+    text: "OpenClaw documentation instructs operators to treat third-party skills as untrusted code and read them before enabling."
+    excerpt: "Treat third-party skills as **untrusted code**. Read them before enabling."
+    artifact: normalized.md
+    checked_at: 2026-06-18
+    checked_by: "Codex"
+    scope:
+      applies_to:
+        - "Third-party skill security"
+      does_not_apply_to: []
+      limitations: []
+    open_questions: []
