@@ -1,10 +1,12 @@
 name: openclaw-skills
 version: 1.0.0
-description: APM project for openclaw-skills
+description: Коллекция навыков для OpneClaw
 author: Михаил Красильников
 dependencies:
   apm:
   - mekras/ai-dev-team#^0.3.0
   mcp: []
 includes: auto
-scripts: {}
+scripts:
+  compile: "apm compile --target codex"
+  install:frozen: "apm install --frozen"
