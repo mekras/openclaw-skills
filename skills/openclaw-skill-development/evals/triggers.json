@@ -1,0 +1,59 @@
+{
+  "skill_name": "openclaw-skill-development",
+  "cases": [
+    {
+      "id": "openclaw-skill-development-positive-create-openclaw-skill",
+      "prompt": "Создай новый OpenClaw skill для проверки входящих документов и добавь тесты срабатывания.",
+      "should_trigger": true,
+      "rationale": "Нужно создать навык именно для OpenClaw с учётом формата и тестов."
+    },
+    {
+      "id": "openclaw-skill-development-positive-skill-workshop",
+      "prompt": "Подготовь proposal через Skill Workshop для обновления workspace skill, чтобы оператор применил его после ревью.",
+      "should_trigger": true,
+      "rationale": "Запрос касается управляемого OpenClaw workflow через Skill Workshop."
+    },
+    {
+      "id": "openclaw-skill-development-positive-allowlist-gating",
+      "prompt": "Проверь OpenClaw skill: он не виден агенту, возможно проблема в agents.defaults.skills или metadata.openclaw.requires.",
+      "should_trigger": true,
+      "rationale": "Нужно проверить OpenClaw-специфичные поверхности загрузки, allowlist и gating."
+    },
+    {
+      "id": "openclaw-skill-development-positive-migrate-codex-skill",
+      "prompt": "Перенеси навык из $CODEX_HOME/skills в OpenClaw workspace skills и проверь совместимость.",
+      "should_trigger": true,
+      "rationale": "Запрос касается переноса в OpenClaw skill root и проверки совместимости."
+    },
+    {
+      "id": "openclaw-skill-development-positive-security-review",
+      "prompt": "Оцени сторонний OpenClaw skill перед включением: там есть scripts и команды exec.",
+      "should_trigger": true,
+      "rationale": "Нужна проверка безопасности OpenClaw skills как недоверенного кода."
+    },
+    {
+      "id": "openclaw-skill-development-negative-general-agent-skill",
+      "prompt": "Создай навык агента для анализа договоров, без привязки к OpenClaw.",
+      "should_trigger": false,
+      "rationale": "Это общая разработка навыка агента, её покрывает ai-skill-development."
+    },
+    {
+      "id": "openclaw-skill-development-negative-agents-md",
+      "prompt": "Проверь AGENTS.md на конфликтующие инструкции и машинную пригодность.",
+      "should_trigger": false,
+      "rationale": "Это аудит проектных инструкций, а не OpenClaw skill."
+    },
+    {
+      "id": "openclaw-skill-development-negative-openclaw-config-only",
+      "prompt": "Настрой openclaw.json: добавь Telegram gateway и модель по умолчанию.",
+      "should_trigger": false,
+      "rationale": "Запрос про конфигурацию OpenClaw в целом, но не про разработку навыка."
+    },
+    {
+      "id": "openclaw-skill-development-negative-readme",
+      "prompt": "Напиши README для коллекции навыков OpenClaw.",
+      "should_trigger": false,
+      "rationale": "Это пользовательская документация, а не создание или проверка skill."
+    }
+  ]
+}

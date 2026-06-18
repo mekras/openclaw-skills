@@ -1,0 +1,4 @@
+interface:
+  display_name: "openclaw-skill-development"
+  short_description: "Создание и сопровождение OpenClaw skills"
+  default_prompt: "Используй openclaw-skill-development для создания, переноса, проверки или улучшения OpenClaw skills: проверь корпус знаний, формат SKILL.md, загрузку, allowlist, Skill Workshop, безопасность и постоянные evals."
