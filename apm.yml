@@ -1,0 +1,10 @@
+name: openclaw-skills
+version: 1.0.0
+description: APM project for openclaw-skills
+author: Михаил Красильников
+dependencies:
+  apm:
+  - mekras/ai-dev-team#^0.3.0
+  mcp: []
+includes: auto
+scripts: {}
