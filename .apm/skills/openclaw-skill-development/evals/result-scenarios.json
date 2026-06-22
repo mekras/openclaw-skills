@@ -28,6 +28,10 @@
     {
       "claim_id": "OCDOC-012",
       "statement_path": "knowledge/index/statements.yml"
+    },
+    {
+      "claim_id": "OCDOC-015",
+      "statement_path": "knowledge/index/statements.yml"
     }
   ],
   "cases": [

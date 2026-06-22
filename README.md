@@ -16,7 +16,7 @@
 Подключите коллекцию в проект, где агент должен работать с навыками OpenClaw:
 
 ```bash
-apm install github.com/mekras/openclaw-skills#master --target agent-skills
+apm install --dev github.com/mekras/openclaw-skills#^0.1.1
 ```
 
 После установки навык доступен агенту среди проектных навыков. Первый рабочий
